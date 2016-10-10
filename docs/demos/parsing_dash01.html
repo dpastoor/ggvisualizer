@@ -8,9 +8,9 @@
 
 
 
-<title>ggvisualizer</title>
+<title>basic histogram</title>
 
-<meta property="og:title" content="ggvisualizer" />
+<meta property="og:title" content="basic histogram" />
 
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
@@ -847,7 +847,7 @@ html, body {
   
 </span>
 <span class="navbar-brand">
-  ggvisualizer
+  basic histogram
   <span class="navbar-author">
         </span>
 </span>
@@ -862,12 +862,12 @@ html, body {
 </div><!--/.container-->
 </div><!--/.navbar-->
 
-<img class="mobile-figure" data-mobile-figure-id=fig1 src="parsing_dash01_files/figure-html/unnamed-chunk-2-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig2 src="parsing_dash01_files/figure-html/unnamed-chunk-4-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig3 src="parsing_dash01_files/figure-html/unnamed-chunk-5-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig4 src="parsing_dash01_files/figure-html/unnamed-chunk-6-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig5 src="parsing_dash01_files/figure-html/unnamed-chunk-7-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig6 src="parsing_dash01_files/figure-html/unnamed-chunk-8-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig1 src="parsing_dash01_files/figure-html/basichistogram01-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig2 src="parsing_dash01_files/figure-html/unnamed-chunk-3-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig3 src="parsing_dash01_files/figure-html/unnamed-chunk-4-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig4 src="parsing_dash01_files/figure-html/unnamed-chunk-5-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig5 src="parsing_dash01_files/figure-html/unnamed-chunk-6-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig6 src="parsing_dash01_files/figure-html/unnamed-chunk-7-1.mb.png" />
 <script type="text/javascript">
 
 
@@ -2632,15 +2632,18 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<div id="final-output" class="section level3" data-commentary-width="600">
-<h3>Final output</h3>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-2-1.png" width="576" data-figure-id=fig1 /></p>
+<div id="final-output" class="section level3" data-commentary-width="600">
+<h3>Final output</h3>
+<div class="knitr-options" data-fig-width="960" data-fig-height="576">
+
+</div>
+<p><img src="parsing_dash01_files/figure-html/basichistogram01-1.png" width="3000" data-figure-id=fig1 /></p>
 <hr />
 <p>Dataset preview</p>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+<div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
 <table>
@@ -2729,10 +2732,10 @@ window.FlexDashboardComponents.push({
 </div>
 <div id="step-1---the-base-histogram" class="section level3" data-commentary-width="600">
 <h3>step 1 - The base histogram</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+<div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-4-1.png" width="576" data-figure-id=fig2 /></p>
+<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-3-1.png" width="3000" data-figure-id=fig2 /></p>
 <hr />
 <p>Plot code:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> sd_oral_richpk, <span class="kw">aes</span>(<span class="dt">x =</span> Weight, <span class="dt">group =</span> Gender)) +<span class="st"> </span>
@@ -2740,10 +2743,10 @@ window.FlexDashboardComponents.push({
 </div>
 <div id="step-2---change-the-binwidth-and-add-some-theming-and-labels" class="section level3" data-commentary-width="600">
 <h3>step 2 - change the binwidth and add some theming and labels</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+<div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-5-1.png" width="576" data-figure-id=fig3 /></p>
+<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-4-1.png" width="3000" data-figure-id=fig3 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(data = sd_oral_richpk, aes(x = Weight, group = Gender)) + 
@@ -2764,10 +2767,10 @@ window.FlexDashboardComponents.push({
 </div>
 <div id="step-3---attempt-to-distinguish-by-gender-via-coloring" class="section level3" data-commentary-width="600">
 <h3>step 3 - attempt to distinguish by gender via coloring</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+<div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-6-1.png" width="576" data-figure-id=fig4 /></p>
+<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-5-1.png" width="3000" data-figure-id=fig4 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(data = sd_oral_richpk, aes(x = Weight, group = Gender)) + 
@@ -2787,10 +2790,10 @@ window.FlexDashboardComponents.push({
 </div>
 <div id="step-4---correct-the-color-to-use-fill" class="section level3" data-commentary-width="600">
 <h3>step 4 - correct the color to use fill</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+<div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-7-1.png" width="576" data-figure-id=fig5 /></p>
+<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-6-1.png" width="3000" data-figure-id=fig5 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(data = sd_oral_richpk, aes(x = Weight, group = <span style="background:rgba(127, 255, 0, 0.5);"><ins>factor(</ins></span>Gender<span style="background:rgba(255, 0, 0, 0.5);"><del>))</del></span><span style="background:rgba(127, 255, 0, 0.5);"><ins>)))</ins></span> + 
@@ -2809,10 +2812,10 @@ window.FlexDashboardComponents.push({
 </div>
 <div id="step-5---add-a-vertical-line" class="section level3" data-commentary-width="600">
 <h3>step 5 - add a vertical line</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+<div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-8-1.png" width="576" data-figure-id=fig6 /></p>
+<p><img src="parsing_dash01_files/figure-html/unnamed-chunk-7-1.png" width="3000" data-figure-id=fig6 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(data = sd_oral_richpk, aes(x = Weight, group = factor(Gender))) + 

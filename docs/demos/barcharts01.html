@@ -862,13 +862,13 @@ html, body {
 </div><!--/.container-->
 </div><!--/.navbar-->
 
-<img class="mobile-figure" data-mobile-figure-id=fig1 src="barcharts01_files/figure-html/unnamed-chunk-1-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig2 src="barcharts01_files/figure-html/unnamed-chunk-3-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig3 src="barcharts01_files/figure-html/unnamed-chunk-4-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig4 src="barcharts01_files/figure-html/unnamed-chunk-5-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig5 src="barcharts01_files/figure-html/unnamed-chunk-6-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig6 src="barcharts01_files/figure-html/unnamed-chunk-7-1.mb.png" />
-<img class="mobile-figure" data-mobile-figure-id=fig7 src="barcharts01_files/figure-html/unnamed-chunk-8-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig1 src="barcharts01_files/figure-html/barchart01-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig2 src="barcharts01_files/figure-html/unnamed-chunk-2-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig3 src="barcharts01_files/figure-html/unnamed-chunk-3-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig4 src="barcharts01_files/figure-html/unnamed-chunk-4-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig5 src="barcharts01_files/figure-html/unnamed-chunk-5-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig6 src="barcharts01_files/figure-html/unnamed-chunk-6-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig7 src="barcharts01_files/figure-html/unnamed-chunk-7-1.mb.png" />
 <script type="text/javascript">
 
 
@@ -2641,7 +2641,7 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="barcharts01_files/figure-html/unnamed-chunk-1-1.png" width="3000" data-figure-id=fig1 /></p>
+<p><img src="barcharts01_files/figure-html/barchart01-1.png" width="3000" data-figure-id=fig1 /></p>
 <hr />
 <p>Dataset preview</p>
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
@@ -2729,14 +2729,14 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="barcharts01_files/figure-html/unnamed-chunk-3-1.png" width="3000" data-figure-id=fig2 /></p>
+<p><img src="barcharts01_files/figure-html/unnamed-chunk-2-1.png" width="3000" data-figure-id=fig2 /></p>
 </div>
 <div id="step-2-reorder-the-data-so-pain-score-levels-make-sense" class="section level3" data-commentary-width="600">
 <h3>Step 2 Reorder the data so pain score levels make sense</h3>
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="barcharts01_files/figure-html/unnamed-chunk-4-1.png" width="3000" data-figure-id=fig3 /></p>
+<p><img src="barcharts01_files/figure-html/unnamed-chunk-3-1.png" width="3000" data-figure-id=fig3 /></p>
 <hr />
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">pain_score &lt;-<span class="st"> </span>pain_score %&gt;%<span class="st"> </span>
 <span class="st">  </span><span class="kw">mutate</span>(<span class="dt">painscore =</span> <span class="kw">fct_relevel</span>(painscore, <span class="kw">c</span>(<span class="st">&quot;No pain relief&quot;</span>, 
@@ -2750,7 +2750,7 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="barcharts01_files/figure-html/unnamed-chunk-5-1.png" width="3000" data-figure-id=fig4 /></p>
+<p><img src="barcharts01_files/figure-html/unnamed-chunk-4-1.png" width="3000" data-figure-id=fig4 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(pain_score, aes(x = <span style="background:rgba(127, 255, 0, 0.5);"><ins>TRT, fill = </ins></span>painscore)) + 
@@ -2764,7 +2764,7 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="barcharts01_files/figure-html/unnamed-chunk-6-1.png" width="3000" data-figure-id=fig5 /></p>
+<p><img src="barcharts01_files/figure-html/unnamed-chunk-5-1.png" width="3000" data-figure-id=fig5 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(pain_score, aes(x = TRT, fill = painscore)) + 
@@ -2778,7 +2778,7 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="barcharts01_files/figure-html/unnamed-chunk-7-1.png" width="3000" data-figure-id=fig6 /></p>
+<p><img src="barcharts01_files/figure-html/unnamed-chunk-6-1.png" width="3000" data-figure-id=fig6 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(pain_score, aes(x = TRT, fill = painscore)) + 
@@ -2802,7 +2802,7 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="960" data-fig-height="576">
 
 </div>
-<p><img src="barcharts01_files/figure-html/unnamed-chunk-8-1.png" width="3000" data-figure-id=fig7 /></p>
+<p><img src="barcharts01_files/figure-html/unnamed-chunk-7-1.png" width="3000" data-figure-id=fig7 /></p>
 <hr />
 <p>Changes:</p>
 <pre id="result">ggplot(pain_score, aes(x = TRT, fill = painscore)) + 
@@ -2833,7 +2833,7 @@ window.FlexDashboardComponents.push({
  language (EN)                        
  collate  English_United States.1252  
  tz       America/New_York            
- date     2016-10-09                  
+ date     2016-10-10                  
 
  package       * version    date      
  assertthat      0.1        2013-12-06

@@ -1,141 +1,21 @@
 [[items]]
 title = "barchart"
-image = "images/full/barchart.png"
-thumb = "images/thumbs/barchart.png"
-alt = "barchart"
-description = "A simple barchart"
-url = "http://devinpastoor.com/ggvisualizer/demos/barchart01.html"
-[[items]]
-title = "barchart"
-image = "images/full/barchart.png"
-thumb = "images/thumbs/barchart.png"
+image = "images/full/barchart01-1.png"
+thumb = "images/thumbs/barchart01-1.png"
 alt = "barchart"
 description = "A simple barchart"
 url = "http://devinpastoor.com/ggvisualizer/demos/barcharts01.html"
 [[items]]
 title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
+image = "images/full/basichistogram01-1.png"
+thumb = "images/thumbs/basichistogram01-1.png"
 alt = "histogram"
 description = "A simple histogram"
 url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
 [[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
+title = "concentration time plot"
+image = "images/full/conctime01-1.png"
+thumb = "images/thumbs/conctime01-1.png"
 alt = "histogram"
 description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
-
-[[items]]
-title = "histogram"
-image = "images/full/histogram.png"
-thumb = "images/thumbs/histogram.png"
-alt = "histogram"
-description = "A simple histogram"
-url = "http://devinpastoor.com/ggvisualizer/demos/parsing_dash01.html"
+url = "http://devinpastoor.com/ggvisualizer/demos/conctime01.html"
